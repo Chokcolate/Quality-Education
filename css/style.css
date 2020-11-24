@@ -233,6 +233,14 @@ section {
   transform: translate(-50%, -50%);
 }
 
+.wic p {
+  font-family: "ChulaCharas", sans-serif;
+  position: relative;
+  margin-top: 22vw;
+  text-align: -webkit-center;
+  font-size: 5em;
+}
+
 /* ---------slide-------- */
 .left_content {
   position: relative;
@@ -337,3 +345,10 @@ li span {
   margin-bottom: -9px;
   color: #dcfb00;
 }
+
+.table {
+  font-family: "ChulaCharas", Bold  ;
+  font-size: 2.5em;
+  position: relative;
+  width: auto;
+  margin-bottom: -9px;
