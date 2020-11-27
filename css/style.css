@@ -8,11 +8,13 @@
   font-family: "Athiti", sans-serif;
   display: none;
 }
+
 .page {
   position: absolute;
   z-index: 1;
   min-width: 100vw;
 }
+
 #bg {
   position: absolute;
   top: 0;
@@ -28,10 +30,12 @@
   left: 0;
   display: none;
 }
+
 .txt_hl .txt {
   font-family: "Athiti", sans-serif;
   font-size: 3em;
 }
+
 .txt_hl img {
   position: absolute;
   width: 12vw;
@@ -43,9 +47,10 @@
   font-family: "ChulaCharas";
   src: url(/css/ChulaCharasNewReg.ttf) format("truetype");
 }
+
 body {
   margin: 0;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -73,8 +78,9 @@ section {
 
 .box {
   position: absolute;
-  width: 100vw;
+  width: 100%;
 }
+
 .center {
   position: absolute;
   left: 50%;
@@ -126,20 +132,25 @@ section {
   margin-top: 30vh;
   text-align: -webkit-center;
 }
+
 .chapter_1 .post_it {
   position: relative;
   z-index: 1;
   width: auto;
   height: 40vh;
 }
+
 .chapter_1 .l_t,
 .chapter_1 .l_b {
   position: absolute;
   width: 20vw;
 }
-.r1, .r2{
+
+.r1,
+.r2 {
   background: #dcfb00;
 }
+
 .preface p {
   text-align: center;
   font-size: 2em;
@@ -195,19 +206,24 @@ section {
   position: relative;
 }
 
-.trigger_1,
-.trigger_2 {
+.trigger {
   position: absolute;
   overflow: hidden;
   z-index: 0;
   min-width: 100vw;
 }
 
+#page-1 {
+  background: url(/img/cover.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .box_l,
 .box_r {
   position: relative;
-  width: 34%;
-  height: 100%;
+  width: 15vw;
+  height: 50vw;
   background: #000;
 }
 
