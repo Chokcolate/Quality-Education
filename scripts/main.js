@@ -21,7 +21,7 @@ tl({
     end: "300% top",
     scrub: true,
     pin: true,
-    markers: false
+    // markers: false
   }
 })
   .to(".showtxt_1", { text: "ในการแข่งขันที่", ease: "none" }, 1)
@@ -43,7 +43,7 @@ tl({
     trigger: ".trigger_1",
     start: "bottom bottom",
     end: "250% top",
-    markers: false,
+    // markers: false,
     scrub: true,
     pin: true
   }
@@ -57,7 +57,7 @@ tl({
     trigger: ".trigger_2",
     start: "bottom bottom",
     end: "200% top",
-    markers: false,
+    // markers: false,
     scrub: true,
     pin: true
   }
@@ -70,7 +70,7 @@ tl({
     trigger: ".trigger_3",
     start: "bottom bottom",
     end: "200% top",
-    markers: true,
+    // markers: true,
     scrub: true,
     pin: true
   }
@@ -82,7 +82,7 @@ tl({
     trigger: ".chap1_2",
     start: "10% bottom",
     end: "10% center",
-    markers: false,
+    // markers: false,
     scrub: true
   }
 })
@@ -97,7 +97,7 @@ tl({
     trigger: ".chap1_3",
     start: "10% bottom",
     end: "10% center",
-    markers: false,
+    // markers: false,
     scrub: true
   }
   })
