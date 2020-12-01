@@ -356,3 +356,14 @@ li span {
   position: relative;
   width: auto;
   margin-bottom: -9px;
+}
+
+.box5{
+  font-size: 1.2em;
+  font-family: "ChulaCharas", sans-serif;
+  position: relative;
+  background: #dcfb00;
+  width: 450px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}

@@ -75,7 +75,7 @@ tl({
     pin: true
   }
 })
-  .to(".trigger_3", { left:'-100vw', duration: 1 }, 0);
+  .to(".trigger_3", { left:'-200vw', duration: 1 }, 0);
 
 tl({
   scrollTrigger: {
